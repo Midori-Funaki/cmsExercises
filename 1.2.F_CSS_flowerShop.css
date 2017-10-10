@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+button{
+    color: white;
+    font-size: 15px;
+    background-color: lightgreen;
+    padding: 5px 5px;
+    border:  none;
+    border-radius: 20px;
+}
+
+.mainSlide{
+    position: relative;
+    border: 15px dotted purple;
+}
+
+.mainImage{
+    display: block;
+    position: relative;
+    max-width: 100%;
+    border: 10px solid pink;
+    filter: brightness(70%);
+    box-sizing: border-box;
+}
+
+.imageText{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    background-color: green;
+}
+
+.imageText h1{
+    text-align: center;
+    color: white;
+}
+
+.imageText button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu{
+    background-color: lightgreen;
+    border: 10px dotted red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0px;
+}
+
+.menuIcon{
+    display: relative;
+    width: 250px;
+    background-color: yellow;
+    align-items: center;
+    margin: 30px 15px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menuIcon img,
+.menuIcon p{
+    float: left;
+}
+
+.menuIcon img{
+    max-height: 50px;
+}
+
+.menuIcon p{
+    width: 150px;
+    text-align: center;
+    border: 5px double blue;
+}
