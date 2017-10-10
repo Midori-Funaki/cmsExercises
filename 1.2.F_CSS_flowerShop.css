@@ -4,8 +4,8 @@ body {
 
 button{
     color: white;
-    font-size: 15px;
-    background-color: lightgreen;
+    font-size: 20px;
+    background-color: lime;
     padding: 5px 5px;
     border:  none;
     border-radius: 20px;
@@ -13,26 +13,25 @@ button{
 
 .mainSlide{
     position: relative;
-    border: 15px dotted purple;
 }
 
 .mainImage{
     display: block;
     position: relative;
     max-width: 100%;
-    border: 10px solid pink;
-    filter: brightness(70%);
+    filter: brightness(40%);
     box-sizing: border-box;
 }
 
 .imageText{
     position: absolute;
-    top: 30%;
+    top: 50%;
     width: 100%;
-    background-color: green;
 }
 
 .imageText h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
 }
@@ -45,7 +44,6 @@ button{
 
 .menu{
     background-color: lightgreen;
-    border: 10px dotted red;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -53,12 +51,13 @@ button{
     margin-right: auto;
     margin-left: auto;
     margin: 0px;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .menuIcon{
     display: relative;
     width: 250px;
-    background-color: yellow;
     align-items: center;
     margin: 30px 15px;
     overflow: auto;
@@ -78,5 +77,4 @@ button{
 .menuIcon p{
     width: 150px;
     text-align: center;
-    border: 5px double blue;
 }
